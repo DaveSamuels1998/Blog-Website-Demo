@@ -79,7 +79,7 @@ h1 {
 .hero {
   display: flex;
   justify-content: center;
-  flex: 1;
+
 }
 
 
@@ -91,8 +91,9 @@ h1 {
 }
 
 .flow {
-  display: flex;
-  flex: 1;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+ 
 } 
  .wrapper{
  
@@ -125,13 +126,9 @@ h1 {
 }
  
 
- .blog-post {
-  display: center;
-  justify-content: center;
- 
- }
+
 
 .blog{
-  display: flex;
-  padding: 2rem 0px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
  }  
